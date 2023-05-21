@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Tablet</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="week_mode">Week mode</string>
+    <string name="analysis_string">Анализы</string>
+    <string name="profile_string">Профиль</string>
+    <string name="year_string">2023</string>
+    <string name="month_string">April</string>
+    <string name="add_string">+</string>
+    <string name="textview">TextView</string>
+    <string name="tablet_image">tablet image</string>
+    <string name="name_tablet_string">Название</string>
+    <string name="reserve_tablet_string">Запасы лекарства</string>
+    <string name="shelf_life_tablet_string">Срок годности</string>
+    <string name="next_string">Далее</string>
+    <string name="add_taking_tablet">Добавить прием</string>
+    <string name="add_tablet">Добавить лекарство</string>
+    <string name="time_string">Время</string>
+    <string name="start_course">Дата начала приема</string>
+    <string name="end_course">Дата окончания приема</string>
+    <string name="new_taking">Добавить</string>
+    <string name="back_string">Назад</string>
+    <string name="taking_number_string">Прием 1</string>
+    <string name="add_analysis">Добавить анализ</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mytabletclassic.home.presentation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_tabletFragment"
+            app:destination="@id/tabletFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.mytabletclassic.settings.SettingsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_analysis" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.mytabletclassic.analysis.presentation.AnalysisFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/tabletFragment"
+        android:name="com.example.mytabletclassic.home.presentation.tablet.TabletFragment"
+        android:label="fragment_tablet"
+        tools:layout="@layout/fragment_tablet" >
+        <action
+            android:id="@+id/action_tabletFragment_to_takingTabletFragment"
+            app:destination="@id/takingTabletFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/takingTabletFragment"
+        android:name="com.example.mytabletclassic.home.presentation.takingtablet.TakingTabletFragment"
+        android:label="fragment_taking_tablet"
+        tools:layout="@layout/fragment_taking_tablet" >
+        <action
+            android:id="@+id/action_takingTabletFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_takingTabletFragment_to_tabletFragment"
+            app:destination="@id/tabletFragment" />
+    </fragment>
+</navigation>
