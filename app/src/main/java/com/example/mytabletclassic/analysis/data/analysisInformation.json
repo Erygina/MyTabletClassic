@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "name": "глюкоза",
+    "startReference": 4.1,
+    "endReference": 6.2
+  },
+  {
+    "id": 2,
+    "name": "гликированный гемоглобин",
+    "diabetes":[
+      {
+        "startReference": 6.5,
+        "endReference": null
+      }
+    ],
+    "noDiabetes": [
+      {
+        "startReference": 0,
+        "endReference": 6
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "фруктозамин",
+    "startReference": 170,
+    "endReference": 285
+  },
+  {
+    "id": 4,
+    "name": "лактат",
+    "startReference": 0.5,
+    "endReference": 2.2
+  },
+  {
+    "id": 5,
+    "name": "общий белок",
+    "startReference": 65,
+    "endReference": 85
+  },
+  {
+    "id": 6,
+    "name": "альбумин",
+    "startReference": 35,
+    "endReference": 52
+  },
+  {
+    "id": 7,
+    "name": "лактат",
+    "male": [
+      {
+        "startReference": 5.46,
+        "endReference": 16.2
+      }
+    ],
+    "female": [
+      {
+        "startReference": 4.44,
+        "endReference": 13.56
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "билирубин общий",
+    "startReference": 3.4,
+    "endReference": 20.5
+  },
+  {
+    "id": 9,
+    "name": "билирубин прямой",
+    "startReference": 0,
+    "endReference": 3.4
+  },
+  {
+    "id": 10,
+    "name": "желчные кислоты",
+    "startReference": 0,
+    "endReference": 10
+  },
+  {
+    "id": 11,
+    "name": "триглицериды",
+    "startReference": 0.2,
+    "endReference": 1.7
+  },
+  {
+    "id": 12,
+    "name":"холестерин",
+    "startReference": 0,
+    "endReference": 5
+  },
+  {
+    "id": 13,
+    "name": "аполипопротеин а1",
+    "male": [
+      {
+        "startReference": 1.04,
+        "endReference": 2.02
+      }
+    ],
+    "female": [
+      {
+        "startReference": 1.08,
+        "endReference": 2.25
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name":"аполипопротеин b",
+    "startReference": 0,
+    "endReference": 1.4
+  },
+  {
+    "id": 15,
+    "name":"АлАТ",
+    "male": [
+      {
+        "startReference": 0,
+        "endReference": 41
+      }
+    ],
+    "female": [
+      {
+        "startReference": 0,
+        "endReference": 31
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name":"АсАТ",
+    "male": [
+      {
+        "startReference": 0,
+        "endReference": 37
+      }
+    ],
+    "female": [
+      {
+        "startReference": 0,
+        "endReference": 31
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name":"альфа-амилаза",
+    "startReference": 25,
+    "endReference": 125
+  },
+  {
+    "id": 18,
+    "name":"ГГТ",
+    "male": [
+      {
+        "startReference": 0,
+        "endReference": 49
+      }
+    ],
+    "female": [
+      {
+        "startReference": 0,
+        "endReference": 32
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name":"липаза",
+    "startReference": 8,
+    "endReference": 78
+  },
+  {
+    "id": 20,
+    "name":"ЛДГ",
+    "startReference": 125,
+    "endReference": 220
+  },
+  {
+    "id": 21,
+    "name":"фосфата щелочная",
+    "startReference": 44,
+    "endReference": 147
+  }
+]
+
+
