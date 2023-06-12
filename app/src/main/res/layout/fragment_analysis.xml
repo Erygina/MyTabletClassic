@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="0dp"
     android:layout_gravity="top"
-    tools:context=".analysis.presentation.AnalysisFragment">
+    tools:context=".ui.analysis.AnalysisFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/analysisRecycler"

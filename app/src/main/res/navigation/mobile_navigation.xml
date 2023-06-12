@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.mytabletclassic.home.presentation.home.HomeFragment"
+        android:name="com.example.mytabletclassic.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,18 +17,18 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.mytabletclassic.settings.SettingsFragment"
+        android:name="com.example.mytabletclassic.ui.settings.SettingsFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_analysis" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.mytabletclassic.analysis.presentation.AnalysisFragment"
+        android:name="com.example.mytabletclassic.ui.analysis.AnalysisFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/tabletFragment"
-        android:name="com.example.mytabletclassic.home.presentation.tablet.TabletFragment"
+        android:name="com.example.mytabletclassic.ui.tablet.TabletFragment"
         android:label="fragment_tablet"
         tools:layout="@layout/fragment_tablet" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/takingTabletFragment"
-        android:name="com.example.mytabletclassic.home.presentation.takingtablet.TakingTabletFragment"
+        android:name="com.example.mytabletclassic.ui.takingtablet.TakingTabletFragment"
         android:label="fragment_taking_tablet"
         tools:layout="@layout/fragment_taking_tablet" >
         <action

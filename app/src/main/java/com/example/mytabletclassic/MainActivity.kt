@@ -3,13 +3,11 @@ package com.example.mytabletclassic
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.asLiveData
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
-import com.example.mytabletclassic.R
 import com.example.mytabletclassic.databinding.ActivityMainBinding
-import com.example.mytabletclassic.home.data.TabletDatabase
+import com.example.mytabletclassic.data.tablet.TabletDatabase
 
 class MainActivity : AppCompatActivity() {
 
