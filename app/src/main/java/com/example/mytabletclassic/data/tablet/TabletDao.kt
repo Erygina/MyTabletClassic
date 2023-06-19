@@ -7,7 +7,7 @@ import androidx.room.Query
 import androidx.room.Update
 
 @Dao
-interface TabletDao {
+interface  TabletDao {
     @Insert
     fun insertTablet(tablet: Tablet)
 

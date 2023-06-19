@@ -16,16 +16,20 @@
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_analysis"
         android:name="com.example.mytabletclassic.ui.settings.SettingsFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_analysis" />
-
+        android:label="@string/analysis_string"
+        tools:layout="@layout/fragment_analysis" >
+        <action
+            android:id="@+id/action_navigation_analysis_to_addAnalysisFragment"
+            app:destination="@id/addAnalysisFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_profile"
         android:name="com.example.mytabletclassic.ui.analysis.AnalysisFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/profile_string"
         tools:layout="@layout/fragment_settings" />
+
     <fragment
         android:id="@+id/tabletFragment"
         android:name="com.example.mytabletclassic.ui.tablet.TabletFragment"
@@ -47,4 +51,24 @@
             android:id="@+id/action_takingTabletFragment_to_tabletFragment"
             app:destination="@id/tabletFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addAnalysisFragment"
+        android:name="com.example.mytabletclassic.ui.addanalysis.AddAnalysisFragment"
+        android:label="fragment_add_analysis"
+        tools:layout="@layout/fragment_add_analysis" >
+        <action
+            android:id="@+id/action_addAnalysisFragment_to_navigation_analysis"
+            app:destination="@id/navigation_analysis" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mytabletclassic.ui.login.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_takingTabletFragment"
+            app:destination="@id/takingTabletFragment" />
+    </fragment>
 </navigation>
+
+

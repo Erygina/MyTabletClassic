@@ -4,6 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import androidx.room.TypeConverters
 import com.google.android.material.timepicker.TimeFormat
 import java.sql.Date
 import java.sql.Time
@@ -39,7 +40,7 @@ data class TakingTablet(
 //    @ColumnInfo(name="stop_course")
 //    val stopCourse: Date,
 
-    // Время каждого приема
+   //  Время каждого приема
 //    @ColumnInfo(name="taking_notification")
 //    val takingNotification: MutableMap<Int, Time>,
 

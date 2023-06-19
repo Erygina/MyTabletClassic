@@ -4,6 +4,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class TabletViewModel : ViewModel() {
+
+    private val TabletListAdapter by lazy{
+        TabletListAdapter()
+    }
     val tablets: MutableLiveData<Boolean> by lazy {
         MutableLiveData<Boolean>()
     }

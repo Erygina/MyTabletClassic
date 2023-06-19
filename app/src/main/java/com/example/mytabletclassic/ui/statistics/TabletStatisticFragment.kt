@@ -1,4 +1,4 @@
-//package com.example.mytabletclassic.ui.login
+//package com.example.mytabletclassic.ui.statistics
 //
 //import androidx.lifecycle.ViewModelProvider
 //import android.os.Bundle
@@ -8,24 +8,24 @@
 //import android.view.ViewGroup
 //import com.example.mytabletclassic.R
 //
-//class LoginFragment : Fragment() {
+//class TabletStatisticFragment : Fragment() {
 //
 //    companion object {
-//        fun newInstance() = LoginFragment()
+//        fun newInstance() = TabletStatisticFragment()
 //    }
 //
-//    private lateinit var viewModel: LoginViewModel
+//    private lateinit var viewModel: TabletStatisticViewModel
 //
 //    override fun onCreateView(
 //        inflater: LayoutInflater, container: ViewGroup?,
 //        savedInstanceState: Bundle?
 //    ): View? {
-//        return inflater.inflate(R.layout.fragment_login, container, false)
+//        return inflater.inflate(R.layout.fragment_tablet_statistic, container, false)
 //    }
 //
 //    override fun onActivityCreated(savedInstanceState: Bundle?) {
 //        super.onActivityCreated(savedInstanceState)
-//        viewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
+//        viewModel = ViewModelProvider(this).get(TabletStatisticViewModel::class.java)
 //        // TODO: Use the ViewModel
 //    }
 //
